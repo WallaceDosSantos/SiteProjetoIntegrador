@@ -8,8 +8,3 @@ router.get('/', function(req, res, next) {
 
 module.exports = router;
 
-$('.carousel').carousel()
-
-
-
-const carousel = new bootstrap.Carousel('#myCarousel')
