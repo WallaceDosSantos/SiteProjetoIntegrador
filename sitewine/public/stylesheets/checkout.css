@@ -237,13 +237,10 @@ li {
     box-sizing: border-box;
 }
 
-.resumo-da-compra{
+
+
+.img-resume-001{
+    background-color: #d5d5d5;
     text-align: center;
-    justify-content: center;
-    font-family: 'Lato', Arial, sans-serif bold;
-    background-color: #111;
-    color: aqua;
 }
-
-
 
