@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/stylesheets/checkout.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title> Wine Mix </title>
@@ -21,7 +21,7 @@
         <div class="menu">
           <nav class="menu-services">
             <ul>
-              <img href="" class="winelogo" src="..//public/images/wine - logo top.svg" alt="Wine Mix">
+              <img href="" class="winelogo" src="images/wine - logo top.svg" alt="Wine Mix">
                 <a href="" class="iten1"><li> Ofertas </li></a>
                 <a href="" class="iten1"><li> Vinhos </li></a>
                 <a href="" class="iten1"><li> Champanhe </li></a>
@@ -29,7 +29,7 @@
                 <a href="" class="iten1"><li> Clube </li></a>
                 <a href="" ><span class="iconify-search-top"><iconify-icon icon="mdi:card-search"></iconify-icon></span></a>
                 <a href="" ><span class="iconify-carrinho-top"><iconify-icon icon="mdi:account-circle-outline"></iconify-icon></span></a>
-                <a href=""><span><img class="winelogo-carrinho" src="..//public/images/logo-carrinho.png" alt="Wine"></span></a>
+                <a href=""><span><img class="winelogo-carrinho" src="images/logo-carrinho.png" alt="Wine"></span></a>
             </ul>
           </nav>
         </div>
@@ -41,7 +41,7 @@
             <div class="text-title-resume">
               <div class="img-resume-001">
                 <h4 class="text-0001"> Resumo do Pedido </h4>
-                <img src="..//public/images/img1.png" alt="Kit de Vinhos com 10 Unidades">
+                <img src="images/img1.png" alt="Kit de Vinhos com 10 Unidades">
                 <div class="text-name-products">
                   <p> Kit 10 - Vinhos de Classe </p>
                 </div>
@@ -99,6 +99,22 @@
           <div class="address-delivery">
             <hr class="row Footer__separator-checkout"></hr>
             <p> Endereço de Entrega </p>
+          </div>
+          <div class="">
+            <div class="quantity-of-products">
+              <h6 class="quantity"> Onde você quer receber? </h6>
+              <form action="checkout.html" method="POST">
+                <label for="quantity-01"></label>
+                <select name="Quantidade" id="quantidade-produtos">
+                  <option value="1"> Escolha seu Endereço </option>
+                  <option value="1"> Casa </option>
+                </select>
+                <div class="delete-products">
+                  <a href="" class="delete-products-car"><li> Remover </li></a>
+                </div>
+              </form>
+              <div class="address-1"> Rua Maria das Graças, 483 </div>
+              <div class="address-2"> São Carlos - São Paulo/SP - CEP: 10.000-00 </div>
           </div>
         </section>
     </main>
