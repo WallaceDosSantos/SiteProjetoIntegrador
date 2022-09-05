@@ -362,6 +362,9 @@ li {
 .list-social-media li{
     position: flex;
     display: inline;
+
+
+    
 }
 
 .list-social-media li .iconify{
